@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Authors>Timothy Maina</Authors>
+    <Company>Tyrene</Company>
+    <Description>Ninja Container is a custom library for .NET Standard(supports .netcore, UWP, xamarin and many more) that helps your app or program with Inversion of Control and accomplishing dependency injection and management.</Description>
+    <PackageTags>ninja container,inversion of control,container</PackageTags>
+    <RootNamespace>InversionOfControl</RootNamespace>
+    <AssemblyName>NinjaContainer</AssemblyName>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIconUrl>https://devtimmystorage.blob.core.windows.net/files/ninja_container_icon.ico</PackageIconUrl>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Miyabi DMS\DMS.Common\DMS.Common.csproj" />
+  </ItemGroup>
+
+</Project>
